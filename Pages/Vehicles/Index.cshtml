@@ -1,0 +1,69 @@
+@page
+@model autoTrader.Pages.Vehicles.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h2>Vehicles</h2>
+
+<!--<p>
+    <a asp-page="Create">Create New</a>
+</p>
+-->
+<!--
+<form>
+    <p>
+        Make: <input type="text" name="SearchString">
+        <input type="submit" value="Filter" />
+    </p>
+</form>
+-->
+<table class="table">
+    <thead>
+        <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Vehicle[0].type)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Vehicle[0].make)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Vehicle[0].model)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Vehicle[0].year)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Vehicle[0].price)
+                </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Vehicle) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.type)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.make)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.model)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.year)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.price)
+            </td>
+            <td>
+<!--                <a asp-page="./Edit" asp-route-id="@item.ID">Edit</a> |-->
+                <a asp-page="./Details" asp-route-id="@item.ID">Details</a> <!-- |
+               <a asp-page="./Delete" asp-route-id="@item.ID">Delete</a>-->
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

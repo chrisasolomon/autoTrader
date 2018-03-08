@@ -1,0 +1,49 @@
+@page
+@model autoTrader.Pages.Vehicles.DetailsModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Vehicle</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle.type)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle.type)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle.make)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle.make)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle.model)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle.model)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle.year)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle.year)
+        </dd>
+        <dt>
+            @Html.DisplayNameFor(model => model.Vehicle.price)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.Vehicle.price)
+        </dd>
+    </dl>
+</div>
+<div>
+<!--    <a asp-page="./Edit" asp-route-id="@Model.Vehicle.ID">Edit</a> |
+-->    <a asp-page="./Index">Back to List</a>
+</div>

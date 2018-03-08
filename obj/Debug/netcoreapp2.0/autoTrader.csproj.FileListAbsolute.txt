@@ -1,0 +1,11 @@
+/Users/chris/Development/dotNet/autoTrader/bin/Debug/netcoreapp2.0/autoTrader.deps.json
+/Users/chris/Development/dotNet/autoTrader/bin/Debug/netcoreapp2.0/autoTrader.runtimeconfig.json
+/Users/chris/Development/dotNet/autoTrader/bin/Debug/netcoreapp2.0/autoTrader.runtimeconfig.dev.json
+/Users/chris/Development/dotNet/autoTrader/bin/Debug/netcoreapp2.0/autoTrader.dll
+/Users/chris/Development/dotNet/autoTrader/bin/Debug/netcoreapp2.0/autoTrader.pdb
+/Users/chris/Development/dotNet/autoTrader/obj/Debug/netcoreapp2.0/autoTrader.csproj.CoreCompileInputs.cache
+/Users/chris/Development/dotNet/autoTrader/obj/Debug/netcoreapp2.0/autoTrader.AssemblyInfoInputs.cache
+/Users/chris/Development/dotNet/autoTrader/obj/Debug/netcoreapp2.0/autoTrader.AssemblyInfo.cs
+/Users/chris/Development/dotNet/autoTrader/obj/Debug/netcoreapp2.0/autoTrader.dll
+/Users/chris/Development/dotNet/autoTrader/obj/Debug/netcoreapp2.0/autoTrader.pdb
+/Users/chris/Development/dotNet/autoTrader/obj/Debug/netcoreapp2.0/autoTrader.csprojResolveAssemblyReference.cache
